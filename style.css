@@ -14,7 +14,7 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    row-gap: 25%;
+    row-gap: 20%;
 }
 
 .div-1 {
