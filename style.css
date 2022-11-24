@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section-1 {
+    position: absolute;
+    left: 35%;
+    background-color: rgb(2, 66, 2);
+    width: 25vw;
+    height: 90vh;
+    margin-top: 1%;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    row-gap: 25%;
+}
+
+.div-1 {
+    
+}
+
+.div-2 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.div-2 > h2 {
+    color: rgb(66, 128, 66);
+    font-family: sans-serif;
+}
+
+.div-2 > p {
+    color: white;
+    font-weight: lighter;
+    font-size: 0.6em;
+    font-family: sans-serif;
+    word-spacing: 4px;
+}
+
+.div-3 {
+    position: relative;
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 8%;
+}
+
+.div-4 > a {
+    text-decoration: none;
+    background-color: rgb(66, 128, 66);
+    padding: 5%;
+    border-radius: 50px;
+    color: rgb(2, 66, 2);
+}
